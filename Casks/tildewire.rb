@@ -5,26 +5,22 @@ cask "tildewire" do
   on_macos do
     on_intel do
       sha256 "9d5d24edb792e21f3b1647ac6e449040ba32b0f20511d33afb38d1b2a550ecbf"
-      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_darwin_amd64.tar.gz",
-        verified: "github.com/AIluffy/tildewire/"
+      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
       sha256 "516e4f5a46e2affda3c6c28fca36b529f75abfc488011767f7fce063427daf7a"
-      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_darwin_arm64.tar.gz",
-        verified: "github.com/AIluffy/tildewire/"
+      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
       sha256 "8b9fb7cb6b9f7297728a3cafeaa93930a66a9309423a7a5d2b0362c7c27093e6"
-      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_linux_amd64.tar.gz",
-        verified: "github.com/AIluffy/tildewire/"
+      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
       sha256 "7ad880d17d5d394db6f86f45b20c77110274bcfd5ad7402a0b184898c7dee63d"
-      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_linux_arm64.tar.gz",
-        verified: "github.com/AIluffy/tildewire/"
+      url "https://github.com/AIluffy/tildewire/releases/download/v#{version}/tildewire_#{version}_linux_arm64.tar.gz"
     end
   end
 
